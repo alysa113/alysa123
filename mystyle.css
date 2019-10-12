@@ -1,0 +1,62 @@
+/* 
+
+
+COLORS 
+
+Primary Dark:       #996666
+Primary Light:      #cc9999
+Secondary:          #9999cc
+Dark Background:    #333333
+Dark Gray Text:     #666666
+Light Gray Text:    #999999
+Footer Gray Text:   #cccccc
+Dark salmon:	    #E9967A
+*/
+
+
+h1 {
+background-color: #cc9999;
+text-align:Center;
+font-size: 150px;
+font-family: Freestyle Script;
+color: #F0FFF0;
+margin:50px;
+}
+
+h2 {
+font-family: Open Sans; 
+}
+
+p {
+  margin:50px;
+padding:0;
+text-align:center;
+font-family: Open Sans; 
+position:absolute
+top:50%;
+left:50%
+}
+.center{
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
+}
+
+body {
+  font-family: Open Sans;
+  font-size: 20px;
+  background-color: #FAEBD7;
+background-image:url('cherry.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%; 
+background-image:blur(5px);
+padding:0;
+margin:0;
+
+
+
+}
+
+
