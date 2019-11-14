@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="galleria/galleria-1.6.1.js"></script>
+        <style>
+    .galleria{ width: 400px; height: 400px; background: #fffaf0 }
+</style>
+    </head>
+    <body>
+        <div class="galleria">
+            <img src="thumb1.jpg">
+            <img src="thumb2.jpg">
+            <img src="thumb3.jpg">
+        </div>
+        <script>
+            (function() {
+                Galleria.loadTheme('galleria/themes/folio/galleria.folio.js');
+                Galleria.run('.galleria');
+            }());
+        </script>
+    </body>
+</html>
